@@ -205,13 +205,13 @@ a {
 .work__container {}
 
 .work__content-title {
-  height: 255px;
+  margin-bottom: 50px;
   width: 1140px;
 
 }
 
 .work__content-text {
-  height: 29px;
+  margin-bottom: 10px;
   color: #177165;
 
 }
@@ -231,7 +231,6 @@ a {
 
 .work__img-text {
   width: 463px;
-  height: 726px;
   margin-left: 120px;
   margin-top: 73px;
 }
@@ -242,7 +241,7 @@ a {
   font-size: 32px;
   font-family: Playfair Display;
   font-style: Regular;
-  margin-top: 26px;
+  margin-bottom: 26px;
 }
 
 .work__p-text {
@@ -252,7 +251,7 @@ a {
   font-family: Roboto;
   font-style: Regular;
   font-size: 16px;
-  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .work__thesis-text {
@@ -261,14 +260,18 @@ a {
   font-family: Playfair Display;
   font-style: Regular;
   font-size: 22px;
-  margin-top: 36px;
+  margin-bottom: 36px;
 }
 
 .work__decor {
   margin-top: 90px;
   width: 212px;
   border: 2px solid #177165;
-  padding: 10px 54px 8px 60px;
+  padding: 10px 50px 8px 60px;
+}
+
+.work__span {
+  margin-left: 4px;
 }
 
 .work__button {
@@ -276,5 +279,33 @@ a {
   font-family: Roboto;
   font-style: Regular;
   font-size: 16px;
+}
+
+
+/* -----------------------------------section2---------- */
+
+
+.page__main-farmzi {
+  background-color: #E1F4F2;
+  padding: 100px 150px;
+}
+
+
+
+.farmzi__content-text {
+  margin-bottom: 10px;
+  color: #177165;
+}
+
+.farmzi__content-title2 {
+  font-weight: 400;
+  font-size: 48px;
+  font-family: Playfair Display;
+  color: #177165;
+  margin-bottom: 50px;
+}
+
+.farmzi__content-list {
+  display: flex;
 
 }
